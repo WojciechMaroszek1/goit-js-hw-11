@@ -19,11 +19,16 @@ body {
   button {
     background-color: white;
     border: 1px solid black;
-    width: 100px;
+    width: 40px;
   }
-  
+  .search-form-icon {
+    width: 10px;
+    height: 10px;
+    align-items: center;
+  }
   button:hover {
     cursor: pointer;
+    fill: rgba(18, 34, 203, 0.8);
   }
   
   .btn-load-more {
